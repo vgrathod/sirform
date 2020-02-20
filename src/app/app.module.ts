@@ -18,7 +18,7 @@ import { environment } from 'src/environments/environment';
 import { TemplateWithSidebarComponent } from './templates/template-with-sidebar/template-with-sidebar.component';
 import { SocietyComponent } from './components/society/society.component';
 import { ToastrModule } from 'ngx-toastr';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 import { SocietyformComponent } from './components/societyform/societyform.component';
 import { SocietyService } from './services/soceity.service';
 import { AuthGuard } from './auth.guard';
@@ -48,7 +48,7 @@ import { HttpClientModule } from '@angular/common/http';
     FormsModule,
     HttpClientModule,
     ReactiveFormsModule,
-    BrowserAnimationsModule,
+ 
     ToastrModule.forRoot()
   ],
   providers:[AuthService,SocietyService, AuthGuard],
